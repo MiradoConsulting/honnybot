@@ -1,4 +1,3 @@
-package BottyMcBottface;
 import robocode.*;
 //import java.awt.Color;
 
