@@ -40,7 +40,7 @@ public class Honnybot extends AdvancedRobot
 	 */
 	public void onScannedRobot(ScannedRobotEvent e) {
 		// Replace the next line with any behavior you would like
-       if (event.getDistance() < 100) {
+       if (e.getDistance() < 100) {
            fire(3);
        } else {
            fire(1);
